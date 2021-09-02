@@ -56,7 +56,6 @@
 					</execution>
 				</executions>
 				<configuration>
-				
 					<generatePackage>com.countries.wsdlClasses</generatePackage>
 					<generateDirectory>${project.basedir}/src/main/java</generateDirectory>
 					<schemaDirectory>${project.basedir}/src/main/resources/wsdl</schemaDirectory>
