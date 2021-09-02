@@ -56,14 +56,10 @@
 					</execution>
 				</executions>
 				<configuration>
-					<schemaLanguage>WSDL</schemaLanguage>
 					<generatePackage>com.countries.wsdlClasses</generatePackage>
 					<generateDirectory>${project.basedir}/src/main/java</generateDirectory>
-					<schemas>
-						<schema>
-							<url>http://localhost:8080/ws/countries.wsdl</url>
-						</schema>
-					</schemas>
+					<schemaDirectory>${project.basedir}/src/main/resources/wsdl</schemaDirectory>
+					<schemaIncludes>*.wsdl</schemaIncludes>
 				</configuration>
 			</plugin>
 		</plugins>
